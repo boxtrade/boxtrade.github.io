@@ -306,8 +306,13 @@
    console.log(document.referrer) ;
    console.log(referrer) ;
     if (referrer) {
-      window.location.reload='/';
+      window.location.href='/';
     }
+      <!--  不是404页面    -->
+         var url = window.location.href
+      if(url.indexOf("404.html") == -1){
+           window.location.href = '/';
+      }
 
 </script>
 </body>
