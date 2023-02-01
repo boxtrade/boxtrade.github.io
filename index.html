@@ -117,6 +117,26 @@
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 
+<script>
+<!-- 跳转页 -->
+   var referrer = document.referrer;
+   var url = window.location.href
+   console.log(document.referrer) ;
+   console.log(referrer) ;
+
+  <!--  有上个url    -->
+    if (referrer) {
+        <!--  不是当前页面    -->
+      if(url != referrer){
+              <!--  不是404页面    -->
+          if(referrer.indexOf("404.html") == -1){
+               window.location.href = referrer;
+          }
+      }
+
+    }
+
+
 </script>
 
 </body>

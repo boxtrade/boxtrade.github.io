@@ -25,7 +25,8 @@
 - [ ] 10. 帮助赚钱 
 
 - [ ] 11. 远程文件怎么使用的？？ basepath docsify 
-  12. 
+
+- [ ] 12. 右边目录插件栏
 
 # TODO
 
@@ -95,6 +96,5 @@ https://vega.github.io/editor/?#/examples/vega-lite/layer_candlestick
 | 客户定制   |                                                                     | ![사용가능](https://livere.com/img/install/intro/icon_install_O@3x.png) |
 | 技术支持   |                                                                     | ![사용가능](https://livere.com/img/install/intro/icon_install_O@3x.png) |
 | 高级咨询   |                                                                     | ![사용가능](https://livere.com/img/install/intro/icon_install_O@3x.png) |
-
 
 ![logo](https://avatars.githubusercontent.com/u/120550368?s=200&v=1)

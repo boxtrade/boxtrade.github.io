@@ -304,8 +304,9 @@
 <!--  window.location.href='/';-->
    var referrer = document.referrer;
    console.log(document.referrer) ;
-    if (!referrer) {
-      window.location.href='/'+"?url=referrer";
+   console.log(referrer) ;
+    if (referrer) {
+      window.location.href='/';
     }
 
 </script>
