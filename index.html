@@ -89,6 +89,16 @@
                  e.parentNode.insertBefore(j, e);
              })(document, 'script');
           });
+          // 解决链接直接访问问题
+          hook.ready(()=>{
+          console.log(vm);
+          // handling redirects
+          vm.route = vm.router.parse();
+          document.body.setAttribute('data-page', vm.route.file);
+          vm._updateRender();
+          vm.$fetch(() => { }, vm.$resetEvents.bind(vm, 'navigate'));
+          });
+
         },
 <!-- 我的来必力安装代码 -->
                       ],
