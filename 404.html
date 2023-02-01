@@ -302,6 +302,12 @@
 <script>
 <!-- 跳转首页 -->
 <!--  window.location.href='/';-->
+   var referrer = document.referrer;
+   console.log(document.referrer) ;
+    if (!referrer) {
+      window.location.href='/'+"?url=referrer";
+    }
+
 </script>
 </body>
 </html>
