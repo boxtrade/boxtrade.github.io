@@ -30,7 +30,7 @@ function plugin(hook, vm) {
                             var selecturl = "a[href=\'"+spath+"\']";
                             console.log("模拟跳转");
                             console.log(selecturl);
-                            vm.dom.find(selecturl).click();
+                            Docsify.dom.find(selecturl).click();
                       }
                   }
 
