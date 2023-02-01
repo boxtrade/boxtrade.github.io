@@ -1,5 +1,6 @@
 <!-- _coverpage.md -->
-![logo](https://avatars.githubusercontent.com/u/120550368?s=200&v=1)
+
+![logo](img/assets_boxtrade/33135240f252a0e25c259425701ffc592bfa3e04.png)
 
 # Docsify_Sample
 
