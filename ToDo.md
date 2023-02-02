@@ -28,6 +28,12 @@
 
 - [ ] 12. 右边目录插件栏
 
+- [ ] 13. favico.ico 图标404
+
+- [ ] 14. 网站跳转至指定页面支持不太好，尤其微信端不支持
+
+- [ ] 15. 插件列表展示
+
 # TODO
 
 - [x] Tests
@@ -98,3 +104,15 @@ https://vega.github.io/editor/?#/examples/vega-lite/layer_candlestick
 | 高级咨询   |                                                                     | ![사용가능](https://livere.com/img/install/intro/icon_install_O@3x.png) |
 
 ![logo](https://avatars.githubusercontent.com/u/120550368?s=200&v=1)
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |

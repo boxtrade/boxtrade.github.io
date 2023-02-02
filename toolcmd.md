@@ -18,6 +18,17 @@ docsify serve docs
 docsify serve docs
 ```
 
+**String对象的方法**
+
+**方法一: indexOf()   (推荐)**
+
+```js
+var str = "123"
+ console.log(str.indexOf("2") != -1); // true
+```
+
+indexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置。如果要检索的字符串值没有出现，则该方法返回 -1。
+
 # docsify
 
 ## gitTalk
@@ -102,17 +113,40 @@ window.location.href="http://www.aliyun01.com";
 </script>
 ```
 
+**自定义背景**
 
+目前的背景是随机生成的渐变色，我们自定义背景色或者背景图。在文档末尾用添加图片的 Markdown 语法设置背景。
+
+```markdown
+<!-- 网站图标 -->
+![logo](_media/icon.jpg)
+
+# docsify <small>3.5</small>
+
+> 一个神奇的文档网站生成器。
+
+- 简单、轻便 (压缩后 ~21kB)
+- 无需生成 html 文件
+- 众多主题
+
+[GitHub](https://github.com/docsifyjs/docsify/)
+
+<!-- 背景图片 -->
+![](_media/玩家.png)
+
+<!-- 背景色 -->
+![color](#f0f0f0)
+
+————————————————
+版权声明：本文为CSDN博主「Baret-H」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_45173404/article/details/122683872
+```
 
 # handling redirects
 
 view-source:https://upbeat-noyce-f5634d.netlify.app/tutorials/hello-ml5?id=demo
 
 [view-source](view-source:https://upbeat-noyce-f5634d.netlify.app/tutorials/hello-ml5?id=demo)
-
-
-
-
 
 ## 工具分类索引
 
