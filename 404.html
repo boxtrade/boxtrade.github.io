@@ -306,19 +306,19 @@
    var url = window.location.href
    console.log("当前地址 ："+ url) ;
    console.log("referrer : "+ referrer) ;
-   //地址赋值 用于修改 Referrer
-   var 404referrerurl = referrer;
+   //地址赋值 用于修改 Referrer 一个 JavaScript 标识符必须以字母开头，下划线（_）或美元符号（$）。他们不能以数字开头。只有后续字符可以是数字（0-9）。
+   var referrer404url = referrer;
     if (referrer) {
-      404referrerurl = referrer;
+      referrer404url = referrer;
     }else{
-      404referrerurl = url;
+      referrer404url = url;
     }
       <!--  不是404页面  并且是本站的地址  -->
-      if(404referrerurl.indexOf("404.html") == -1
-      && 404referrerurl.indexOf(window.location.host) != -1
+      if(referrer404url.indexOf("404.html") == -1
+      && referrer404url.indexOf(window.location.host) != -1
       ){
-           console.log("修改referrer 为 : "+ 404referrerurl) ;
-           document.referrer = 404referrerurl；
+           console.log("修改referrer 为 : "+ referrer404url) ;
+           document.referrer = referrer404url；
            console.log("跳转主页") ;
            window.location.href = '/';
       }
