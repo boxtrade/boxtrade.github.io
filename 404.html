@@ -303,7 +303,8 @@
 <!-- 跳转首页 -->
 <!--  window.location.href='/';-->
    var referrer = document.referrer;
-   console.log(document.referrer) ;
+   var url = window.location.href
+   console.log(url) ;
    console.log(referrer) ;
     if (referrer) {
      // 存储
@@ -311,7 +312,6 @@
       window.location.href='/';
     }
       <!--  不是404页面    -->
-      var url = window.location.href
       if(url.indexOf("404.html") == -1){
            // 存储
            sessionStorage.setItem("404referrerurl", url);
