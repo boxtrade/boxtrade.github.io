@@ -304,17 +304,22 @@
 <!--  window.location.href='/';-->
    var referrer = document.referrer;
    var url = window.location.href
-   console.log(url) ;
-   console.log(referrer) ;
+   console.log("当前地址 ："+ url) ;
+   console.log("referrer : "+ referrer) ;
+   //地址赋值 用于修改 Referrer
+   var 404referrerurl = referrer;
     if (referrer) {
-     // 存储
-      sessionStorage.setItem("404referrerurl", referrer);
-      window.location.href='/';
+      404referrerurl = referrer;
+    }else{
+      404referrerurl = url;
     }
-      <!--  不是404页面    -->
-      if(url.indexOf("404.html") == -1){
-           // 存储
-           sessionStorage.setItem("404referrerurl", url);
+      <!--  不是404页面  并且是本站的地址  -->
+      if(404referrerurl.indexOf("404.html") == -1
+      && 404referrerurl.indexOf(window.location.host) != -1
+      ){
+           console.log("修改referrer 为 : "+ 404referrerurl) ;
+           document.referrer = 404referrerurl；
+           console.log("跳转主页") ;
            window.location.href = '/';
       }
 

@@ -7,6 +7,7 @@ var defaultOptions = {
 // Docsify plugin functions
 function plugin(hook, vm) {
 
+     console.log("触发 docsifyReloadPlugin") ;
     if (!defaultOptions.reloadUrlEnable) {
         return
     }
@@ -14,9 +15,12 @@ function plugin(hook, vm) {
         return
     }
     hook.ready(function () {
+           console.log("触发 docsifyReloadPlugin hook.ready") ;
             <!-- 跳转页 -->
-               var referrer = sessionStorage.getItem("404referrerurl");
+               var referrer = document.referrer;
                var url = window.location.href
+               console.log("当前地址 ："+ url) ;
+               console.log("referrer : "+ referrer) ;
               <!--  有上个url    -->
                 if (referrer) {
                     <!--  不是当前页面    -->
@@ -30,7 +34,6 @@ function plugin(hook, vm) {
                             Docsify.dom.find(selecturl).click();
                       }
                   }
-
                 };
     })
 }
