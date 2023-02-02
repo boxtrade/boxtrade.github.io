@@ -13,7 +13,7 @@ function plugin(hook, vm) {
    if (defaultOptions.routerMode != 'history') {
         return
     }
-    hook.init(function () {
+    hook.ready(function () {
             <!-- 跳转页 -->
                var referrer = document.referrer;
                var url = window.location.href
