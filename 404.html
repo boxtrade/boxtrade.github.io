@@ -306,11 +306,15 @@
    console.log(document.referrer) ;
    console.log(referrer) ;
     if (referrer) {
+     // 存储
+      sessionStorage.setItem("404referrerurl", referrer);
       window.location.href='/';
     }
       <!--  不是404页面    -->
-         var url = window.location.href
+      var url = window.location.href
       if(url.indexOf("404.html") == -1){
+           // 存储
+           sessionStorage.setItem("404referrerurl", url);
            window.location.href = '/';
       }
 

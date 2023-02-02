@@ -15,11 +15,8 @@ function plugin(hook, vm) {
     }
     hook.ready(function () {
             <!-- 跳转页 -->
-               var referrer = document.referrer;
+               var referrer = sessionStorage.getItem("404referrerurl");
                var url = window.location.href
-               console.log(document.referrer) ;
-               console.log(referrer) ;
-
               <!--  有上个url    -->
                 if (referrer) {
                     <!--  不是当前页面    -->
