@@ -1,5 +1,5 @@
 //default values 我的来必力留言系统安装代码
-var defaultOptions = {
+var defaultLivereOptions = {
     livereEnable: true,
     uid:   'MTAyMC81Nzk5Ny8zNDQ2MA==',
 }
@@ -7,14 +7,14 @@ var defaultOptions = {
 <!-- 我的来必力安装代码 -->
 
 // Docsify plugin functions
-function plugin(hook, vm) {
+function docsifyLiverePlugin(hook, vm) {
 
-    if (!defaultOptions.livereEnable) {
+    if (!defaultLivereOptions.livereEnable) {
         return
     }
               // load livere
               hook.afterEach(function(html) {
-                  var comment = "<div id='lv-container' data-id='city' data-uid='"+defaultOptions.uid
+                  var comment = "<div id='lv-container' data-id='city' data-uid='"+defaultLivereOptions.uid
                  +"'></div>"
                   return html + comment;
               });
@@ -33,7 +33,7 @@ function plugin(hook, vm) {
 
 // Docsify plugin options
 window.$docsify["docsifyLivere"] = Object.assign(
-    defaultOptions,
+    defaultLivereOptions,
     window.$docsify["docsifyLivere"]
 )
-window.$docsify.plugins = [].concat(plugin, window.$docsify.plugins)
+window.$docsify.plugins = [].concat(docsifyLiverePlugin, window.$docsify.plugins)

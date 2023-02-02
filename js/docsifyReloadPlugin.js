@@ -1,23 +1,25 @@
 //default values
-var defaultOptions = {
+var defaultReloadOptions = {
     reloadUrlEnable: true,
     routerMode:   window.$docsify["routerMode"],
 }
 
 // Docsify plugin functions
-function plugin(hook, vm) {
+function docsifyReloadPlugin(hook, vm) {
 
      console.log("触发 docsifyReloadPlugin") ;
-    if (!defaultOptions.reloadUrlEnable) {
+    if (!defaultReloadOptions.reloadUrlEnable) {
         return
     }
-   if (defaultOptions.routerMode != 'history') {
+   if (defaultReloadOptions.routerMode != 'history') {
         return
     }
     hook.ready(function () {
            console.log("触发 docsifyReloadPlugin hook.ready") ;
             <!-- 跳转页 -->
-               var referrer = document.referrer;
+               var referrer = sessionStorage.getItem("referrerNewurl");
+               //清除 sessionStorage
+               sessionStorage.removeItem('referrerNewurl');
                var url = window.location.href
                console.log("当前地址 ："+ url) ;
                console.log("referrer : "+ referrer) ;
@@ -32,7 +34,10 @@ function plugin(hook, vm) {
                             console.log("模拟跳转");
                             console.log(selecturl);
                             Docsify.dom.find(selecturl).click();
+                      }else{
+                        console.log("未跳转："+ referrer);
                       }
+
                   }
                 };
     })
@@ -40,7 +45,7 @@ function plugin(hook, vm) {
 
 // Docsify plugin options
 window.$docsify["docsifyReloadPlugin"] = Object.assign(
-    defaultOptions,
+    defaultReloadOptions,
     window.$docsify["docsifyReloadPlugin"]
 )
-window.$docsify.plugins = [].concat(plugin, window.$docsify.plugins)
+window.$docsify.plugins = [].concat(docsifyReloadPlugin, window.$docsify.plugins)

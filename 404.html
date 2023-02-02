@@ -313,12 +313,13 @@
     }else{
       referrerNewurl = url;
     }
+    referrerNewurl = 'http://localhost:3000/donate/README';
       <!--  不是404页面  并且是本站的地址  -->
       if(referrerNewurl.indexOf("404.html") == -1
       && referrerNewurl.indexOf(window.location.host) != -1
       ){
-           console.log("修改referrer 为 : "+ referrerNewurl) ;
-           document.referrer = referrerNewurl;
+           console.log("保存 sessionStorage 为 : "+ referrerNewurl) ;
+           sessionStorage.setItem("referrerNewurl", referrerNewurl);
            console.log("跳转主页") ;
            window.location.href = '/';
       }
