@@ -37,6 +37,7 @@ function docsifyReloadPlugin(hook, vm) {
                             var selecturl = "a[href=\'"+spath+"\']";
                             console.log("模拟跳转");
                             console.log(selecturl);
+                            // 目前利用404 html 链接可以跳转，但是如果第一层 打开这个网站，可能要刷新一次 ；浏览器支持的种类没有适配；火狐 谷歌 已经测试 todo
                             Docsify.dom.find(selecturl).click();
                       }else{
                         console.log("未跳转："+ referrer);
