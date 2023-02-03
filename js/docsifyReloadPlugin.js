@@ -8,14 +8,28 @@ var defaultReloadOptions = {
 function docsifyReloadPlugin(hook, vm) {
 
      console.log("触发 docsifyReloadPlugin") ;
+     console.dir(vm);
+     console.dir(hook);
+
+
     if (!defaultReloadOptions.reloadUrlEnable) {
         return
     }
    if (defaultReloadOptions.routerMode != 'history') {
         return
     }
-    hook.init(function () {
+    hook.ready(function () {
            console.log("触发 docsifyReloadPlugin hook.ready") ;
+
+                     // handling redirects
+                      vm.route = vm.router.parse();
+                      document.body.setAttribute('data-page', vm.route.file);
+                      vm._updateRender();
+                      vm.$fetch(() => { }, vm.$resetEvents.bind(vm, 'navigate'));
+
+
+//           vm.route.push("/donate/README");
+
             <!-- 跳转页 -->
                var referrer = sessionStorage.getItem("referrerNewurl");
                //清除 sessionStorage
@@ -33,7 +47,7 @@ function docsifyReloadPlugin(hook, vm) {
                             var selecturl = "a[href=\'"+spath+"\']";
                             console.log("模拟跳转");
                             console.log(selecturl);
-                             vm.route.push(selecturl);
+//                             vm.route.push(selecturl);
 //                            await Docsify.dom.find(selecturl).click();
                       }else{
                         console.log("未跳转："+ referrer);
