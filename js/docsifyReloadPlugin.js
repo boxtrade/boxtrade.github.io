@@ -14,7 +14,7 @@ function docsifyReloadPlugin(hook, vm) {
    if (defaultReloadOptions.routerMode != 'history') {
         return
     }
-    hook.ready(function () {
+    hook.init(function () {
            console.log("触发 docsifyReloadPlugin hook.ready") ;
             <!-- 跳转页 -->
                var referrer = sessionStorage.getItem("referrerNewurl");
@@ -33,13 +33,20 @@ function docsifyReloadPlugin(hook, vm) {
                             var selecturl = "a[href=\'"+spath+"\']";
                             console.log("模拟跳转");
                             console.log(selecturl);
-                            Docsify.dom.find(selecturl).click();
+                             vm.route.push(selecturl);
+//                            await Docsify.dom.find(selecturl).click();
                       }else{
                         console.log("未跳转："+ referrer);
                       }
 
+                  }else{
+                     console.log("当前页面不跳转：referrer ：！"+ referrer);
                   }
+
+                }else{
+                   console.log("未跳转：referrer 为空！");
                 };
+
     })
 }
 
