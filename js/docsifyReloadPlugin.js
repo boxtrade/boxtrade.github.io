@@ -37,7 +37,7 @@ function docsifyReloadPlugin(hook, vm) {
                             var selecturl = "a[href=\'"+spath+"\']";
                             console.log("模拟跳转");
                             console.log(selecturl);
-                            await Docsify.dom.find(selecturl).click();
+                            Docsify.dom.find(selecturl).click();
                       }else{
                         console.log("未跳转："+ referrer);
                       }
