@@ -47,6 +47,13 @@
             // 解决 网站 有 # 的问题,方便 留言系统的使用 refer ; default: 'hash'   https://github.com/docsifyjs/docsify/issues/720
             routerMode: 'history',
 
+            // 配置 alias 避免不必要的回退过程。
+             alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+                '/.*/_navbar.md': '/_navbar.md'
+              },
+
+
              pagination: {
               previousText: '上一章节',
               // or
