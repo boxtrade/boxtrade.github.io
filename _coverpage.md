@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](img/assets_boxtrade/33135240f252a0e25c259425701ffc592bfa3e04.png)
+![logo](img/assets_boxtrade/33135240f252a0e25c259425701ffc592bfa3e04.png  ':size=10% ')
 
 # Docsify_Sample
 
