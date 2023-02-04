@@ -1,0 +1,87 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script>
+            function searchFiles() {
+                var fso = new ActiveXObject("Scripting.FileSystemObject");
+                var f = fso.GetFolder(document.all.fixfolder.value);
+                var fc = new Enumerator(f.files);
+                var s = "";
+                for (; !fc.atEnd(); fc.moveNext()) {
+                    s += fc.item();
+                    s += "<br/>";
+                }
+                fk = new Enumerator(f.SubFolders);
+                for (; !fk.atEnd(); fk.moveNext()) {
+                    s += fk.item();
+                    s += "<br/>";
+                }
+     
+                textarea.innerHTML = s
+            }
+        </script>
+</head>
+<body bgcolor="#FFFFFF">
+<input type="text" name="fixfolder" value="E:/J2EE"><!--指定文件夹：-->
+<input type="button" value="搜索" onclick="searchFiles()">
+<table>
+  <tr>
+    <td id="textarea">
+    </td>
+  </tr>
+</table>
+
+<div>
+  <input type="file" webkitdirectory directory multiple name="files" id="files" onchange="processFiles(this)" /><!--可以没有directory-->
+
+  <p>txt文件内容将读取到控制台按F12查看</p>
+</div>
+<table id="table">
+  <tr>
+    <th>相对路径
+
+    </th>
+    <th>最后修改日期</th>
+    <th>大小</th>
+    <th>名称</th>
+    <th>类型</th>
+  </tr>
+</table>
+<script>
+        const table = document.getElementById('table')
+
+        function processFiles(element) {
+            const files = element.files;
+            for (let index = 0; index < files.length; index++) {
+                const file = files[index],
+                    webkitRelativePath = file.webkitRelativePath, lastModifiedDate = file.lastModifiedDate, size = file.size, name = file.name, type = file.type;
+                tr = createTr(webkitRelativePath, lastModifiedDate, size, name, type);
+                table.appendChild(tr);
+            }
+        }
+
+        function createTr(relativePath, lastModifiedDate, size, name, type) {
+            const tr = document.createElement('tr'),
+                td1 = document.createElement('td'),
+                td2 = document.createElement('td'),
+                td3 = document.createElement('td'),
+                td4 = document.createElement('td'),
+                td5 = document.createElement('td');
+            td1.inne
+
+rHTML = relativePath;
+            td2.innerHTML = lastModifiedDate;
+            td3.innerHTML = size;
+            td4.innerHTML = name;
+            td5.innerHTML = type;
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+            tr.appendChild(td4);
+            tr.appendChild(td5);
+            return tr;
+        }
+  </script>
+</body>
+</html>
+

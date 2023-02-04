@@ -148,6 +148,14 @@ view-source:https://upbeat-noyce-f5634d.netlify.app/tutorials/hello-ml5?id=demo
 
 [view-source](view-source:https://upbeat-noyce-f5634d.netlify.app/tutorials/hello-ml5?id=demo)
 
+```js
+     // handling redirects
+          vm.route = vm.router.parse();
+          document.body.setAttribute('data-page', vm.route.file);
+          vm._updateRender();
+          vm.$fetch(() => { }, vm.$resetEvents.bind(vm, 'navigate'));
+```
+
 ## 工具分类索引
 
 **[常用文档](https://tool.oschina.net/apidocs)**
