@@ -1,3 +1,4 @@
+//@Deprecated
 //default values
 var defaultReloadOptions = {
     reloadUrlEnable: true,

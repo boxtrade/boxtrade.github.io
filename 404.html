@@ -46,6 +46,14 @@
             mergeNavbar: true,
             // 解决 网站 有 # 的问题,方便 留言系统的使用 refer ; default: 'hash'   https://github.com/docsifyjs/docsify/issues/720
             routerMode: 'history',
+            // 点击标题后的跳转地址
+            nameLink: '/',
+            // 配置 alias 避免不必要的回退过程。
+             alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+                '/.*/_navbar.md': '/_navbar.md'
+              },
+
 
              pagination: {
               previousText: '上一章节',
@@ -73,6 +81,10 @@
                           ),
                       ],
 
+               // 页脚信息插件
+              loadFooter: true,
+              loadFooter: '_footer.md'
+
         }
 
 
@@ -88,6 +100,9 @@
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 <!-- 来必力留言系统安装 加载 -->
 <script async src="/js/docsifyLiverePlugin.js"></script>
+<!-- 页脚信息 -->
+<script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+
 <!--&lt;!&ndash; docsifyTestPlugin 安装 加载 &ndash;&gt;-->
 <!--<script async src="/js/docsifyTestPlugin.js"></script>-->
 <!--&lt;!&ndash; 404 跳转 内部文件加载 &ndash;&gt;-->

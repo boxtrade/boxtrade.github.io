@@ -1,3 +1,4 @@
+//@Deprecated
 <!-- 跳转页 -->
    var referrer = document.referrer;
    var url = window.location.href

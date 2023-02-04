@@ -1,4 +1,4 @@
-
+//@Deprecated
 // Docsify plugin functions
 function docsifyTestPlugin(hook, vm) {
      console.log("触发 docsifyTestPlugin") ;
