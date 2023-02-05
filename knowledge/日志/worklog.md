@@ -52,9 +52,99 @@ github：[xhhdd/Aurality](https://github.com/xhhdd/Aurality)
 
 blog：[xhhdd.cc](https://xhhdd.cc)
 
- 
 
 
+### 邀链
+
+友链申请,已添加大佬友链
+名称:希戈㐷boxtrade
+地址:https://boxtrade.github.io/
+头像:https://avatars.githubusercontent.com/u/120550368?s=200&v=4
+内容: 学习 工作 生活 
+
+
+
+2023年02月04日22:44:08
+
+- 添加链接 https://boxtrade.github.io/donate/README 个人组织主页
+
+- 开发本地模式和线上远程模式，两种即开即用的 前端应用
+
+DEMO 网站 
+
+- [marktext/docs at develop · chenGit1763113879QQ/marktext · GitHub](https://github.com/chenGit1763113879QQ/marktext/tree/develop/docs)
+
+- [GitHub - chenGit1763113879QQ/404StarLink: 404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目](https://github.com/chenGit1763113879QQ/404StarLink)
+
+## 2023年02月05日17:38:37
+
+好有成就感，目标已经达成；线上远程模式 docsify 基本可用；
+
+## 捐献项目要钱
+
+### 404starLink
+
+你好，最近利用贵仓库的知识库做了一个介绍网站 [404StarLink-wiki](https://chengit1763113879qq.github.io/404StarLink-wiki/#/)，如果你觉得有用可以fork me 或者 [buy a coffee for me](https://boxtrade.github.io/donate/README) ! 如果需要帮助，可以直接在仓库下留言。
+
+Hello, recently used your repository's knowledge base to make an introduction site [404StarLink-wiki](https://chengit1763113879qq.github.io/404StarLink-wiki/#/), if you find it useful you can fork me or [buy a coffee for me]( https://boxtrade.github.io/donate/README) ! If you need help, you can leave a message directly under the repository.
+
+### marktext-wiki
+
+Contribute a web wiki 
+
+    你好，最近利用贵仓库的知识库做了一个介绍网站 [marktext-wiki](https://boxtrade.github.io/marktext-wiki/#/)，如果你觉得有用可以 [fork me](https://github.com/boxtrade/marktext-wiki) 后重新部署或者 [buy a coffee for me](https://boxtrade.github.io/donate/README) ! 如果需要帮助，可以直接在仓库下留言。
+
+    Hello, recently used your repository's knowledge base to make an introduction site  [marktext-wiki](https://boxtrade.github.io/marktext-wiki/#/) , if you find it useful you can [fork me](https://github.com/boxtrade/marktext-wiki)   and redeploy  or [buy a coffee for me](https://boxtrade.github.io/donate/README) ! If you need help, you can leave a message directly under the repository.
+
+2023年02月05日19:50:07 
+
+### 等待佳音
+
+- [Contribute 404StarLink-wiki web · Issue #97 · knownsec/404StarLink · GitHub](https://github.com/knownsec/404StarLink/issues/97) 
+
+- [Contribute a web wiki ； i love this soft 😃 : · Issue #3570 · marktext/marktext · GitHub](https://github.com/marktext/marktext/issues/3570)
+
+- 
+
+### 自助建站测试
+
+- https://chengit1763113879qq.github.io/404StarLink-wiki/#/
+
+- [marktext-wiki](https://boxtrade.github.io/marktext-wiki/#/)
+
+# CHATGPT
+
+## Q1 OpenAI's services are not available in your country. ???
+
+当前任务 
+
+找出  githu 文件列表的api 
+
+配置参考 
+
+```js
+      // Docsify configuration
+      window.$docsify = {
+        alias: {
+          '.*?/awesome':
+            'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
+          '.*?/changelog':
+            'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG.md',
+          '/.*/_navbar.md': '/_navbar.md',
+          '/es/(.*)':
+            'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1',
+          '/de-de/(.*)':
+            'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
+          '/ru-ru/(.*)':
+            'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
+          '/zh-cn/(.*)':
+            'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
+        },
+```
+
+## vue 遍历文件参考[DayLearnNote/getDirStruct.js at master · accforgit/DayLearnNote · GitHub](https://github.com/accforgit/DayLearnNote/blob/master/getDirStruct.js)
+
+# chatgpt 一出世就很火的工具 ，一会看下
 
 # 日历
 

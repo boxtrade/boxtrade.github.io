@@ -236,7 +236,7 @@ https://shields.io/
 
 ![logo](https://shields.io/badge/3%CF%83-boxtrade-red)
 
-[3σ-boxtrade-red logo](https://shields.io/badge/3%CF%83-boxtrade-red)
+![3σ-boxtrade-red logo](https://shields.io/badge/3%CF%83-boxtrade-red)
 
 ![Puppet Forge feedback score](https://img.shields.io/puppetforge/f/3%CF%83/boxtrade?color=red&label=boxtrade&logo=3%CF%83&logoColor=red&style=plastic)
 
