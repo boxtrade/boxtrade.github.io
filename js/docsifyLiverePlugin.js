@@ -9,9 +9,10 @@ var defaultLivereOptions = {
 // Docsify plugin functions
 function docsifyLiverePlugin(hook, vm) {
 
-    if (!defaultLivereOptions.livereEnable) {
-        return
-    }
+                if (!defaultLivereOptions.livereEnable) {
+                    return
+                }
+               console.log(" afterEach 加载 docsifyLiverePlugin ") ;
               // load livere
               hook.afterEach(function(html) {
                   var comment = "<div id='lv-container' data-id='city' data-uid='"+defaultLivereOptions.uid
