@@ -112,8 +112,6 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 
 -  [Contribute a web wiki · Issue #110 · openai/openai-cookbook · GitHub](https://github.com/openai/openai-cookbook/issues/110)
 
-
-
 ### 自助建站测试
 
 - https://chengit1763113879qq.github.io/404StarLink-wiki/#/
