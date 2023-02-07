@@ -249,3 +249,11 @@ rating-★★★★★-brightgreen
 ### 图片测试
 
 ![pic](https://img-blog.csdnimg.cn/img_convert/99a56049139d1df6662c5eaeb9fc69e9.png)
+
+
+
+# 关于办证赚钱的事情
+
+本人感觉是由于中介啊，官方网站 消息不透明，居间服务好，赚到差价，所以很香！
+
+# 脑袋空空 啥也写不出来

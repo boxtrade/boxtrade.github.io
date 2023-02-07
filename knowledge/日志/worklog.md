@@ -52,8 +52,6 @@ github：[xhhdd/Aurality](https://github.com/xhhdd/Aurality)
 
 blog：[xhhdd.cc](https://xhhdd.cc)
 
-
-
 ### 邀链
 
 友链申请,已添加大佬友链
@@ -61,8 +59,6 @@ blog：[xhhdd.cc](https://xhhdd.cc)
 地址:https://boxtrade.github.io/
 头像:https://avatars.githubusercontent.com/u/120550368?s=200&v=4
 内容: 学习 工作 生活 
-
-
 
 2023年02月04日22:44:08
 
@@ -96,15 +92,27 @@ Contribute a web wiki
 
     Hello, recently used your repository's knowledge base to make an introduction site  [marktext-wiki](https://boxtrade.github.io/marktext-wiki/#/) , if you find it useful you can [fork me](https://github.com/boxtrade/marktext-wiki)   and redeploy  or [buy a coffee for me](https://boxtrade.github.io/donate/README) ! If you need help, you can leave a message directly under the repository.
 
+### open api cook
+
+ Contribute a web wiki
+
+    Hello, recently used your repository's knowledge base to make an introduction site [openai-cookbook-wiki](https://boxtrade.github.io/openai-cookbook-wiki/#/) , if you find it useful you can [fork me](https://github.com/boxtrade/openai-cookbook-wiki) and redeploy or [buy a coffee for me](https://boxtrade.github.io/donate/README) ! If you need help, you can leave a message directly under the repository.
+
+But Files of type ipynb cannot be displayed yet, and I will fix it later
+
+   你好，最近利用贵仓库的知识库做了一个介绍网站 [https://boxtrade.github.io/openai-cookbook-wiki/#/，如果你觉得有用可以](https://boxtrade.github.io/openai-cookbook-wiki/#/%EF%BC%8C%E5%A6%82%E6%9E%9C%E4%BD%A0%E8%A7%89%E5%BE%97%E6%9C%89%E7%94%A8%E5%8F%AF%E4%BB%A5) [fork me](https://github.com/boxtrade/marktext-wiki) 后重新部署或者 [buy a coffee for me](https://boxtrade.github.io/donate/README) ! 如果需要帮助，可以直接在仓库下留言。
+
 2023年02月05日19:50:07 
 
-### 等待佳音
+### 等待佳音 今天完成了三个在线网站  wiki
 
 - [Contribute 404StarLink-wiki web · Issue #97 · knownsec/404StarLink · GitHub](https://github.com/knownsec/404StarLink/issues/97) 
 
 - [Contribute a web wiki ； i love this soft 😃 : · Issue #3570 · marktext/marktext · GitHub](https://github.com/marktext/marktext/issues/3570)
 
-- 
+-  [Contribute a web wiki · Issue #110 · openai/openai-cookbook · GitHub](https://github.com/openai/openai-cookbook/issues/110)
+
+
 
 ### 自助建站测试
 
