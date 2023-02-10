@@ -4,7 +4,6 @@
   * [本站](https://boxtrade.github.io)
   * [sample](https://boxtrade.github.io/docsify_sample/#/)
   * [国内sample](https://boxtrade.gitee.io/docsify_sample/#/)
-  * [知识库](knowledge/_sidebar.md)
   * [blog](knowledge/blog/moodDiary.md)
 * Docsify学习链接
   * [Docsify](https://docsify.js.org/#/zh-cn/)
