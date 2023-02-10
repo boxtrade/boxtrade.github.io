@@ -118,6 +118,22 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 
 - [marktext-wiki](https://boxtrade.github.io/marktext-wiki/#/)
 
+
+
+### issue 反馈
+
+- 前段运行出现偶尔刷新不出来主页的问题
+
+- 还会报跨域的错误 
+
+- 整体体验不好，自己测试的 都会出现 
+
+- todo 待优化 找个合作者 
+
+
+
+
+
 # CHATGPT
 
 ## Q1 OpenAI's services are not available in your country. ???
