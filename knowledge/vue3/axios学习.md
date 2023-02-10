@@ -1,12 +1,8 @@
-
-
 # AXIOS 学习
 
 ## 参考文档
 
 - [Axios API | Axios Docs](https://axios-http.com/zh/docs/api_intro)
-
-
 
 # 常见问题
 
@@ -26,10 +22,4 @@
 
 [JSONP及Axios - 木木子夕 - 博客园](https://www.cnblogs.com/lym-2022/p/16617831.html)
 
-
-
 # 本来还想利用 他取个数据，他的跨域了，挡住了一切 ；还是老老实实在后端计算。。。
-
-
-
-
