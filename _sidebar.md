@@ -13,6 +13,7 @@
     * [个人社交网站](knowledge/me/me.md)
     * [ToDo](knowledge/me/ToDo.md)
     * [worklog](knowledge/日志/worklog.md)
+    * [tradelog](knowledge/日志/tradelog.md)
 * 量化相关
     * [量化知识积累](knowledge/量化/量化知识积累.md)
     * [量化现状与期望](knowledge/量化/量化现状与期望.md)
