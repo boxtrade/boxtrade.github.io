@@ -118,8 +118,6 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 
 - [marktext-wiki](https://boxtrade.github.io/marktext-wiki/#/)
 
-
-
 ### issue 反馈
 
 - 前段运行出现偶尔刷新不出来主页的问题
@@ -129,10 +127,6 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 - 整体体验不好，自己测试的 都会出现 
 
 - todo 待优化 找个合作者 
-
-
-
-
 
 # CHATGPT
 
@@ -179,3 +173,86 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 | 13<br><br>廿三 | 14<br><br>情人节 | 15<br><br>廿五 | 16<br><br>廿六 | 17<br><br>廿七 | 18<br><br>廿八         | 19<br><br>雨水 |
 | 20<br><br>初一 | 21<br><br>龙抬头 | 22<br><br>初三 | 23<br><br>初四 | 24<br><br>初五 | 25<br><br>初六         | 26<br><br>初七 |
 | 27<br><br>初八 | 28<br><br>初九  | 1<br><br>初十  | 2<br><br>十一  | 3<br><br>十二  | 4<br><br>十三          | 5<br><br>十四  |
+
+# 2023年02月20日15:31:51
+
+## 页面设计
+
+- 主页
+
+- 目录页
+
+- 详情页
+
+- 登录 自选；自选分组
+
+- 新闻资讯页
+
+-  
+
+
+
+# 2023年02月21日08:59:23 建站的迷茫
+
+1. 页面展示的重要性，？？不重要，其他免费产品替代
+
+2. 告警，检测通知。登记，重要，有个页面点一下更好；设置下范围，告警方式
+
+3. 技术指标描述 
+
+
+
+# 玻璃 纯碱
+
+房地产系数影响较大 
+
+差值在收盘前三分钟开始不稳定，挑战极值 
+
+
+
+```shell
+时间 2023-02-21 14:56:56, 当前国内期货 玻璃2305 主力价格：1555.00;
+时间 2023-02-21 14:56:56, 当前国内期货 纯碱2305 主力价格：2987.00;
+纯碱玻璃价比例： 1.92090
+纯碱玻璃价差： 1432.00
+```
+
+
+
+
+
+# 数据相关性
+
+[Java 做相关性分析_jsci.maths.statistics.tdistribution的依赖_天弃2的博客-CSDN博客](https://blog.csdn.net/weixin_50627332/article/details/127193779)
+
+
+
+## 皮尔逊（pearson）相关系数
+
+https://zhuanlan.zhihu.com/p/584636705
+
+
+
+## Spearman(斯皮尔曼相关性系数)
+
+https://zhuanlan.zhihu.com/p/581986411
+
+
+
+
+
+
+
+## [Java 使用 Apache commons-math3 线性拟合、非线性拟合实例（带效果图）](https://www.cnblogs.com/wufeiwua/p/15110699.html)
+
+https://www.cnblogs.com/wufeiwua/p/15110699.html
+
+
+
+
+
+
+
+# JVM 堆外内存
+
+[员工关键业绩指标，关键业绩指标和关键绩效指标（带你认识JDK8中超nice的Native）_犇涌向乾](http://www.029ztxx.com/tg/1674123045865036.html)
