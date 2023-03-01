@@ -188,9 +188,7 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 
 - 新闻资讯页
 
--  
-
-
+- 
 
 # 2023年02月21日08:59:23 建站的迷茫
 
@@ -200,15 +198,11 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 
 3. 技术指标描述 
 
-
-
 # 玻璃 纯碱
 
 房地产系数影响较大 
 
 差值在收盘前三分钟开始不稳定，挑战极值 
-
-
 
 ```shell
 时间 2023-02-21 14:56:56, 当前国内期货 玻璃2305 主力价格：1555.00;
@@ -217,42 +211,42 @@ But Files of type ipynb cannot be displayed yet, and I will fix it later
 纯碱玻璃价差： 1432.00
 ```
 
-
-
-
-
 # 数据相关性
 
 [Java 做相关性分析_jsci.maths.statistics.tdistribution的依赖_天弃2的博客-CSDN博客](https://blog.csdn.net/weixin_50627332/article/details/127193779)
-
-
 
 ## 皮尔逊（pearson）相关系数
 
 https://zhuanlan.zhihu.com/p/584636705
 
-
-
 ## Spearman(斯皮尔曼相关性系数)
 
 https://zhuanlan.zhihu.com/p/581986411
-
-
-
-
-
-
 
 ## [Java 使用 Apache commons-math3 线性拟合、非线性拟合实例（带效果图）](https://www.cnblogs.com/wufeiwua/p/15110699.html)
 
 https://www.cnblogs.com/wufeiwua/p/15110699.html
 
-
-
-
-
-
-
 # JVM 堆外内存
 
 [员工关键业绩指标，关键业绩指标和关键绩效指标（带你认识JDK8中超nice的Native）_犇涌向乾](http://www.029ztxx.com/tg/1674123045865036.html)
+
+# 项目模块设想
+
+- 用户模块
+
+- 产品模块
+
+- 行情模块
+
+- 策略
+
+- 要闻
+
+- 留言讨论
+
+- 博客
+
+[Discuz! 安装向导](http://121.43.55.160:88/install/index.php?method=ext_info)
+
+https://discuz.com/docs-v1/install_bt_linux.html
