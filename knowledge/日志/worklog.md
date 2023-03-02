@@ -250,3 +250,34 @@ https://www.cnblogs.com/wufeiwua/p/15110699.html
 [Discuz! 安装向导](http://121.43.55.160:88/install/index.php?method=ext_info)
 
 https://discuz.com/docs-v1/install_bt_linux.html
+
+2023年03月01日10:06:34
+
+近期的目标，简单页面展示产品，行情；产品介绍。
+
+相关系数 指数预测！！
+
+tradeview 展示页
+
+数据存储展示页
+
+实时数据
+
+产品目录
+
+# tradingview踩坑心得
+
+**一、简介**　　tradingview是一个非常强大的图表插件，主要用于经济类的图表展示，尤其是k线图，很多行情网站的k线都可以看到是用的tradingview。最近公司有项目用到了这款插件，在摸索过程中踩了很多的坑，这里就总结一下，写一篇踩坑的心得，不过前端的技术栈很复杂，tradingview的功能也非常多，所以这里只说下我用的框架和业务接触到的功能，大家多多交流学习～　　首先是申请使用，使用是免费的（当然申请完成之后，也可以付费升级成专业版），申请流程有点繁琐，要以公司的名义提交申请，之后会收到协议，然后打印、签字、盖章再拍照发回去什么的。。通过之后就可以收到tradingview的github地址了，可以把代码clone下来了，之后也可以随着官方的发布随时更新，还是很方便的。　　然后就可以开始上手使用了，这里先贴一下官方的攻略：      https://github.com/zlq4863947/tradingViewWikiCn    //wiki是官方在维护的开发文档，不过是英文的，这是大佬翻译的中文版  
+      https://github.com/tradingview/charting-library-examples     //这是官方给出的demo，包含了现在各大主流前端框架的写法
+
+
+
+# TRADEVIEW 类似网站
+
+[图表 - PonentStock](https://ponentstock.com/chart#!)
+
+https://zhuanlan.zhihu.com/p/568771958
+
+
+
+https://touzitools.com/#term-15
