@@ -322,15 +322,9 @@ https://github.com/ibaihuo/chanvis
 
 # grafana
 
-
-
 ## [演示 demo play ](https://play.grafana.org/dashboards)
 
 #### [社区 Grafana Labs Community Forums](https://community.grafana.com/latest)
-
-
-
-
 
 # candlestick 真心喜欢
 
@@ -344,6 +338,16 @@ https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&platform
 
 curl -O https://dl.grafana.com/enterprise/release/grafana-enterprise-9.4.3.darwin-amd64.tar.gz  
 tar -zxvf grafana-enterprise-9.4.3.darwin-amd64.tar.gz
+
+### mac 启动与安装
+
+[Install on macOS | Grafana documentation](https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/)
+
+To start Grafana service, go to the directory and run the command:
+
+```bash
+./bin/grafana-server web
+```
 
 ## heatmap 热力图 搞了很久，也没有成功 这个先放弃 后面有时间 在搞下
 
@@ -444,13 +448,9 @@ https://github.com/json-path/JsonPath/issues/439
 来源：简书  
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-
-
 # grafana 配置
 
 https://liumiaocn.blog.csdn.net/article/details/104027047
-
-
 
 # 正则
 
@@ -483,19 +483,11 @@ http://www.5566.net/qh-.htm
 - [ ] 机器人接入，同花顺，chat-gpt ??? todo 
 - [ ] 
 
-
-
-
-
 # 指标研究
 
-- - [ ]   布林线参数的区别??
-
-
+- - [ ] 布林线参数的区别??
 
 # 组建社区 grafana
-
-
 
 # 路线确定
 
@@ -513,10 +505,268 @@ http://www.5566.net/qh-.htm
 > 
 > 加油！！
 
-
-
 # 交易焦虑
 
 可以让机器 程序化 代替人的焦虑，做成一定的止损，止盈，分析 策略；自动化分析
 
 自动化 发布
+
+### 2023年03月15日15:00:00
+
+- [ ] grafanan 移植部署
+
+- [ ] 交易所列表
+
+- [ ] 
+
+# mysql  # 创建MySQL只读权限用户
+
+[创建MySQL只读权限用户_mysql创建只读用户_leejie*.的博客-CSDN博客](https://blog.csdn.net/weixin_43573186/article/details/121607548)
+
+```mysql
+SELECT user,host FROM mysql.user;
+SELECT * FROM mysql.user WHERE user='root';
+
+-- 1  创建一个用户 
+CREATE USER 'readonly'@'%' IDENTIFIED BY '123456';
+-- 2、给用户赋予只读权限
+GRANT SELECT ON stock_trade.* TO 'readonly'@'%'; 
+-- 3、刷新权限
+FLUSH PRIVILEGES;
+```
+
+## 创建 所有权限授予新创建的用户
+
+```sql
+create user  vn@'%' identified by '123456';
+
+GRANT ALL PRIVILEGES ON *.* TO vn@'%';
+
+FLUSH PRIVILEGES; 
+```
+
+## 参考
+
+[# MySQL 创建用户 | Mysql Create User](https://mp.weixin.qq.com/s?__biz=MzU5NzUxMzEzNQ==&mid=2247489709&idx=5&sn=d13933fd9eec7682b762c97f63439346&chksm=fe531e6dc924977b99be6c4cc754fb7cdc4909def1de1d2b9e6ee4210b0e3fa5e02ad23ad44c&scene=27)
+
+# grafana 小技巧
+
+## 表格字段属性重写
+
+可以重新 定义  cell属性 
+
+# 工作重点 -- 寻找盈利机会，力争每天都有正收益
+
+- 策略
+
+- 回测
+
+- 实盘
+
+- 程序语言，java ,python
+
+# 创业思路 想法
+
+- 基础生活保障 吃喝拉撒穿住用 
+
+- 团队合作 找各种各样的人一起来帮忙 
+
+- 公司盈利点思考
+
+# 数据服务
+
+提供免费的历史数据查询 
+
+# 安装 Homebrew
+
+https://brew.sh/index_zh-cn
+
+```cmd
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+https://zhuanlan.zhihu.com/p/438515593
+
+中科大 快一点 
+
+https://zhuanlan.zhihu.com/p/111014448
+
+# python
+
+## # macos下python安装tkinter
+
+找了半天折腾各种奇淫巧技，最后其实很简单
+
+```bash
+brew install python-tk
+```
+
+via https://stackoverflow.com/questions/61218237/how-can-i-install-tkinter-for-python-on-mac
+
+## # python 更换国内镜像源
+
+[python 更换国内镜像源_python切换镜像源_刘墨苏的博客-CSDN博客](https://blog.csdn.net/m0_50679156/article/details/116230889)
+
+```
+pip config set global.index-url https://pypi.mirrors.ustc.edu.cn/simple/
+```
+
+https://zhuanlan.zhihu.com/p/451550125
+
+```python3
+pip config set global.index-url  https://pypi.org/simple  
+```
+
+# ## 解决 MacOS BigSur 使用 pip 安装依赖失败的问题  invalid version number in 'MACOSX_DEPLOYMENT_TARGET=13'
+
+      clang: error: invalid version number in 'MACOSX_DEPLOYMENT_TARGET=13'
+
+https://xkcoding.com/2021/03/10/fix-error-about-python-package-install-on-big-sur.html
+
+https://stackoverflow.com/questions/63972113/big-sur-clang-invalid-version-error-due-to-macosx-deployment-target
+
+# 单身电影
+
+[电影《和莎莫的500天》HD在线观看-西蒙影院](https://tv.cvvision.cn/v/22714_1_1.html)
+
+# # Python 的 setup.py
+
+```text
+$ python setup.py install
+```
+
+https://zhuanlan.zhihu.com/p/276461821
+
+# # 释放 Mac 上的储存空间
+
+# https://support.apple.com/zh-cn/HT206996
+
+尴尬，😓 
+
+买的电脑256g的硬盘，远远不够用啊 
+
+想换电脑了
+
+买个服务器  巨无霸级别的  
+
+最近想部署 微服务，人人为我，我为人人 
+
+# # Mac打不开Anaconda-Navigator的解决办法！
+
+https://zhuanlan.zhihu.com/p/452685170
+
+# # 用数据告诉你 Python 代码比 Java 慢 100 倍！
+
+https://cloud.tencent.com/developer/article/1558841
+
+# # anaconda设置中文方法分享
+
+[anaconda�������ķ�������-̫ƽ�������](https://pcedu.pconline.com.cn/1428/14284149.html)
+
+# [MySQL 设定、修改字符集_mysql修改字符集_veejaLiu的博客-CSDN博客](https://blog.csdn.net/u014565127/article/details/120076506)
+
+```sql
+ALTER DATABASE 数据库名 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+ALTER TABLE 表名 CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+
+show variables where Variable_name like 'collation%';
+
+ALTER DATABASE stock_trade DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+
+ALTER TABLE t_futures CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+```
+
+# grafana 下拉框链接 教程
+
+### 下拉框 值和 value
+
+/(?<value>[^-]+)|--(?<text>[^]+)/g
+
+### 变量名 market = '${exchange}'
+
+## [Grafana系统的备份、恢复、迁移](https://baijiahao.baidu.com/s?id=1674054707827211417&wfr=spider&for=pc)
+
+备份grafana目录中的grafana.db（一般情况下路径：/var/lib/grafana/grafana.db）
+
+备份插件目录plugins（一般情况下路径为：/var/lib/grafana/plugins）
+
+备份Grafana配置文件：/etc/grafana/grafana.ini
+
+# 量化框架
+
+[Installation - Backtrader](https://www.backtrader.com/docu/installation/)
+
+# 2023年03月22日11:17:46 近期目标
+
+- python askshare 数据 入库 mysql 
+
+- backtrader 回测框架学习
+
+- springcloud 注册中心建立 
+
+- java 项目 架构梳理 
+
+- python 相关性
+
+- 眼下交易 玻璃期货 行情查看 ``
+
+# 2023年03月22日13:28:42
+
+https://ponentstock.com/
+
+首先要承认一个现实，最近为了行情数据弄的焦头烂额的；可是最近看大了，老哥的网站，不由得眼前一亮。
+
+人无我有，人有我精。
+
+那现在没有别人做的好，打不不过就加入。
+
+完成那个 属于自己特色的事务。 将优点发挥到极致，最近行情的数据 就看到这里吧
+
+行情中心的事项 暂缓。
+
+先做策略，相关性，对冲交易对 研究 。
+
+目前方向 投研 
+
+# # 解决Github报错HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
+
+https://blog.csdn.net/u011426236/article/details/129104875
+
+# # 全球九大主流编程语言
+
+https://zhuanlan.zhihu.com/p/46956255
+
+# python 常用工具
+
+## # [使用SQLAlchemy操作MySQL](https://www.cnblogs.com/jclian91/p/12121735.html)
+
+https://www.cnblogs.com/jclian91/p/12121735.html
+
+[python常用的量化金融库_finta库_星空下0516的博客-CSDN博客](https://blog.csdn.net/qq_28531269/article/details/120763451)
+
+# 行情数据
+
+ akshare 数据质量太差 
+
+https://tushare.pro/
+
+数据参考 
+
+### 行情 数据计划
+
+做社区开源，利用github gitee 做一个数据存储，字典数据，
+
+行情数据沿用 接口调用，或者找老哥合作 问老哥要一个行情数据 
+
+原数据主体  java处理 并提供数据 
+
+扩展课提供 python api 套件 
+
+轻应用，制作数据转发 
+
+# 重启 Spring cloud 计划
+
+[关于TensorFlow | TensorFlow中文官网](https://tensorflow.google.cn/?hl=zh-cn)
