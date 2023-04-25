@@ -770,3 +770,42 @@ https://tushare.pro/
 # 重启 Spring cloud 计划
 
 [关于TensorFlow | TensorFlow中文官网](https://tensorflow.google.cn/?hl=zh-cn)
+
+
+
+
+
+
+
+# 2023年04月17日17:27:55
+
+# grafana 上生产
+
+
+
+https://grafana.com/grafana/download
+
+```shell
+wget https://dl.grafana.com/enterprise/release/grafana-enterprise-9.4.7.linux-amd64.tar.gz
+tar -zxvf grafana-enterprise-9.4.7.linux-amd64.tar.gz
+
+```
+
+### Execute the binary  [执行](https://grafana.com/docs/grafana/latest/setup-grafana/installation/rpm/#execute-the-binary)
+
+```bash
+./bin/grafana-server web
+```
+
+# [Grafana数据迁移](https://www.cnblogs.com/zeq912/p/11089026.html)
+
+https://www.cnblogs.com/zeq912/p/11089026.html
+
+
+
+# # mysql设置允许外部访问
+
+```sql
+update user set host='%' where user ='root';
+FLUSH PRIVILEGES;
+```
