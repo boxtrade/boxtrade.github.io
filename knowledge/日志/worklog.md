@@ -24,34 +24,6 @@
 > 
 > 手工，电子化，程式化，可以完美结合多好；
 
-## 2023年02月04日21:23:17
-
-遇到一个好的博客，自己搭建的；还是个搞艺术的，合适惊讶于佩服；博客干干净净的，
-
-[# 邓邓的流水账](https://nav.xhhdd.cc/)
-
-[千千结 - 邓邓的流水账](https://xhhdd.cc/index.php/cross.html)
-
-看完她的博客，很有感受呀；
-
-个人博客，建站这么好的真的第一次见，现在工作了，都很浮动，尤其像我现在这样码字记流水账的更不多了，真是觉得欢喜。
-
-这个也引导我后面的发展往哪里发展，个人博客，公司网站风格；
-
-还是一成不变的gitbook风格，
-
-真是优秀呀！！！ 佩服 
-
-推荐，推荐！！！
-
-:dog:
-
-mail：[wiki@kv.mk](https://mail.qq.com/)
-
-github：[xhhdd/Aurality](https://github.com/xhhdd/Aurality)
-
-blog：[xhhdd.cc](https://xhhdd.cc)
-
 ### 邀链
 
 友链申请,已添加大佬友链
@@ -771,24 +743,15 @@ https://tushare.pro/
 
 [关于TensorFlow | TensorFlow中文官网](https://tensorflow.google.cn/?hl=zh-cn)
 
-
-
-
-
-
-
 # 2023年04月17日17:27:55
 
 # grafana 上生产
-
-
 
 https://grafana.com/grafana/download
 
 ```shell
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise-9.4.7.linux-amd64.tar.gz
 tar -zxvf grafana-enterprise-9.4.7.linux-amd64.tar.gz
-
 ```
 
 ### Execute the binary  [执行](https://grafana.com/docs/grafana/latest/setup-grafana/installation/rpm/#execute-the-binary)
@@ -801,11 +764,22 @@ tar -zxvf grafana-enterprise-9.4.7.linux-amd64.tar.gz
 
 https://www.cnblogs.com/zeq912/p/11089026.html
 
-
-
 # # mysql设置允许外部访问
 
 ```sql
 update user set host='%' where user ='root';
 FLUSH PRIVILEGES;
+```
+
+ser Permission
+
+The
+ database user should only be granted SELECT permissions on the 
+specified database & tables you want to query. Grafana does not 
+validate that queries are safe so queries can contain any SQL statement.
+ For example, statements like `USE otherdb;` and `DROP TABLE user;` would be executed. To protect against this we **Highly** recommend you create a specific MySQL user with restricted permissions. Check out the [MySQL Data Source Docs](http://mac.boxtrade.top:3000/datasources/edit/http://docs.grafana.org/features/datasources/mysql/) for more information.
+
+```sql
+CREATE USER 'readonly'@'%' IDENTIFIED BY '123456';
+GRANT SELECT ON stock_trade.* TO 'readonly'@'%'; 
 ```
