@@ -783,3 +783,17 @@ validate that queries are safe so queries can contain any SQL statement.
 CREATE USER 'readonly'@'%' IDENTIFIED BY '123456';
 GRANT SELECT ON stock_trade.* TO 'readonly'@'%'; 
 ```
+
+# 知识图谱 学习
+
+# 2023年06月29日16:10:57
+
+心情稍微好点，这半年真是起伏跌宕；默默发现 还是做技术 做产品最稳定 
+
+做研报；出研报；
+
+# 2023年07月04日13:53:52
+
+最近很疲劳，每天晚上很晚才睡；休息的也不是很好！ 每天这样的 搞得身心俱疲。
+
+最近情绪也不是很稳定，一个人，也没有什么目标。

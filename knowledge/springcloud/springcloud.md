@@ -26,23 +26,15 @@ https://github.com/chenGit1763113879QQ/jeecg-boot/tree/master
 
 - 对外调用模块 直接jar,http,python 
 
-
-
-
-
 # 缓存选型
 
 本地 https://zhuanlan.zhihu.com/p/348695568 # 高性能缓存 Caffeine 原理及实战
 
 https://zhuanlan.zhihu.com/p/109226599
 
-
-
 ### SpringBoot 缓存之 @Cacheable 详细介绍
 
 https://blog.csdn.net/u012102536/article/details/126097079
-
-
 
 # swagger
 
