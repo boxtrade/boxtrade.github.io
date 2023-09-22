@@ -53,8 +53,6 @@ icon = google
 
 [BOXTRADE天启量化平台-Grafana](http://mac.boxtrade.top:3000)
 
-
-
 # 注意
 
 - 回调地址为Grafana工作区的连接地址加`/login/generic_oauth`后缀，例如`http://[Grafana连接地址:端口号]/login/generic_oauth`。您可以在工作区信息页面查看Grafana工作区的连接地址和端口号，更多信息，请参见[创建Grafana工作区](https://help.aliyun.com/zh/arms/observable-visualization-grafana-edition/manage-workspaces#task-2112879)。
@@ -64,11 +62,7 @@ icon = google
 - scope表示权限范围，有以下选项，请求时使用空格隔开
    `user_info projects pull_requests issues notes keys hook groups gists enterprises`
 
-
-
 # 参考
-
-
 
 [Gitee OAuth 文档](https://gitee.com/api/v5/oauth_doc#/)
 
@@ -78,17 +72,9 @@ icon = google
 
 [Configure generic OAuth2 authentication | Grafana documentation](https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/configure-authentication/generic-oauth/)
 
-
-
-
-
 ## grafana 三方登录图标icon代码逻辑
 
 1、登录图标的位置     grafana/public/img/icons/unicons/
 2、代码 public/app/core/components/Login/LoginServiceButtons.tsx    https://github.com/grafana/grafana/blob/8ec4c1bdc87c43fe43e6bc56db924a9107edf137/public/app/core/components/Login/LoginServiceButtons.tsx#L72
 3、默认配置参考 https://github.com/grafana/grafana/blob/8ec4c1bdc87c43fe43e6bc56db924a9107edf137/conf/defaults.ini#L732
 4、gitee图标参考 https://gitee.com/about_us
-
-
-
-

@@ -6,15 +6,11 @@ java 调用 python
 
 java  原生调用 
 
-
-
 开源基础数据库 
 
 # 数据源
 
 http://www.360doc.com/content/23/0507/10/15913066_1079597711.shtml
-
-
 
 # 一、数据接口
 
@@ -44,15 +40,9 @@ DataFrame类型，非常便于用pandas/NumPy/Matplotlib进行数据分析和可
 
 `` `注：安装指令：   1、Akshare   pip install akshare -i https://pypi.douban.com/simple/   2、Baostock   pip install baostock -i https://pypi.douban.com/simple/   3、tushare   pip install tushare -i https://` ``pypi.douban.com/simple/
 
-
-
-
-
 # 更多数据源
 
 https://zhuanlan.zhihu.com/p/589103804
-
-
 
 ## **Awesome-data**
 
@@ -174,10 +164,4 @@ https://zhuanlan.zhihu.com/p/589103804
 
 - 提供股票低中高频率、财务数据及加密货币的低中高频数据
 
-
-
-
-
 # 没有思想 没有灵魂 。。。
-
-
